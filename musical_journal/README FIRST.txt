@@ -1,1 +1,0 @@
-The file should open in the browser when clicked.
