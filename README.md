@@ -1,1 +1,1 @@
-https://raw.githack.com/N3UM4N/Music_Diary/9d0d18fedd3fe084eaa1f74e981c5c969723f35d/music_diary.html
+https://raw.githack.com/N3UM4N/Music_Diary/b7d15a93c4b46af9a95832871cb019e5f0447939/music_diary.html
