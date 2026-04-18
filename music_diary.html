@@ -33,6 +33,7 @@
         #lessondate {
             font-family: 'Courier New', Courier, monospace;
             font-size: 40px;
+            font-weight: bold;
         }
         #whatpract {
             font-family: 'Courier New', Courier, monospace;
@@ -410,7 +411,6 @@
             document.getElementById("nextplan").innerHTML = "";
             document.getElementById("practsess").innerHTML = "";
         }             
-    
         function sumbrek() {
             document.getElementById("lessondate").innerHTML = "";
             document.getElementById("whatpract").innerHTML = "";
@@ -516,12 +516,14 @@
     <summary id="practsesstitle">Personal Practise</summary>
     <label id="practsess"></label>
     </details>
-</body>
+    <div style="position: absolute;">
     <div style="position:relative; bottom: 300px; left: 800px;">
     <div id="pract_vid"><img src="R.jpg" width="800" height="500"></div>
     <div id="vid_descrip"></div>
     </div>
-<footer style="position: relative; left: 1px; bottom: 270px;">
+    </div>
+</body>
+<footer style="position: relative; left: 1px; bottom: -240px;">
 <label style="position: relative; bottom: 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px; text-decoration: underline; font-weight: bold;">Recorded Practise Sessions</label><br>
 <button onclick="vid1()" class="button_style">Practise Video 1</button>
 <button onclick="vid2()" class="button_style">Practise Video 2</button>
